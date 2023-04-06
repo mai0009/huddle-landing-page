@@ -135,5 +135,58 @@ button{
 }
 footer{
     background-color:hsl(192, 100%, 9%);
-    padding-top: 100px;
+    padding: 130px 70px 20px 70px;
+    color: #bcd0e2;
+}
+#logo {
+    filter: brightness(0) invert(1);
+    width:18%;
+  }
+footer .logo{
+    margin-bottom:20px;
+}
+footer .main{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin-right: 50px;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li,
+footer .main .left{
+    padding:8px;
+}
+.part-1{
+    width:40%;
+}
+footer .Copyright{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+footer .part-1 .left{
+    display: flex;
+}
+footer .part-1 .left .right{
+    margin-left: 15px;
+}
+footer .social-media{
+    display: flex;
+    justify-content: space-around;
+}
+footer .social-media i {
+    padding:5px;
+    margin: 5px;
+    border: 1px solid #bcd0e2;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
 }
