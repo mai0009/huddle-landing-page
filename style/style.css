@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-size: 18px;
+ }
+.header-container{
+    background-image:linear-gradient(hsla(192, 100%, 9%, 0.1), hsla(192, 100%, 9%, 0.1)), url(../images/bg-hero-desktop.svg);
+    height: 100vh;
+}
+header{
+    padding: 2% 4%;
+}
+
+.header-top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.header-bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.header-bottom .content {
+    width: 40%;
+    padding: 10px;
+}
+.header-bottom .content h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: hsl(210, 41%, 11%);
+    font-size: 1.8em;
+}
+.header-bottom .content p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: hsl(210, 4%, 21%);
+}
+.header-bottom .image{
+    width: 55%;
+}
+.header-bottom .image img{
+    width:100%;
+}
+button{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+.header-top button{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 3px 2px rgb(243, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(210, 4%, 21%);
+    font-size: 11px;
+}
+.header-bottom button{
+    background-color: hsl(314, 94%, 68%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+}
